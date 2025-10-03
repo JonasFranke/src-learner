@@ -1,41 +1,331 @@
 [
   {
-    "question": "„Mobiler Seefunkdienst“ ist mobiler Funkdienst …",
     "answers": [
       "zwischen Küstenfunkstellen und Seefunkstellen bzw. zwischen Seefunkstellen untereinander",
       "zwischen tragbaren Funkstellen an Bord eines Seefahrzeuges",
       "ausschließlich zwischen Seefunkstellen",
       "zwischen Funkstellen, für die keine Zuteilung (Ship Station Licence) notwendig ist"
     ],
-    "correct": 0
+    "correct": 0,
+    "question": "„Mobiler Seefunkdienst“ ist mobiler Funkdienst …"
   },
   {
-    "question": "Welche Funktion hat das „GMDSS“ (Global Maritime Distress and Safety System)?",
     "answers": [
       "Hilfe in Seenotfällen und Sicherung der Schifffahrt durch schnelle und genaue Alarmierung im Seenotfall",
       "Koordinierung der Alarmierung von Seefunkstellen im Seenotfall",
       "Positionsbestimmung des Havaristen durch geostationäre Satelliten",
       "Störungsfreier Funkverkehr im Seenotfall"
     ],
-    "correct": 0
+    "correct": 0,
+    "question": "Welche Funktion hat das „GMDSS“ (Global Maritime Distress and Safety System)?"
   },
   {
-    "question": "Zu welchem Zweck wurde das Weltweite Seenot- und Sicherheitsfunksystem (GMDSS) eingeführt?",
     "answers": [
       "Schnelle und genaue Alarmierung in Not-, Dringlichkeits- und Sicherheitsfällen",
       "Schnelle Alarmierung in Notfällen",
       "Schnelle und genaue Alarmierung in Not- und Dringlichkeitsfällen",
       "Schnelle und genaue Alarmierung in Not- und Sicherheitsfällen"
     ],
-    "correct": 0
+    "correct": 0,
+    "question": "Zu welchem Zweck wurde das Weltweite Seenot- und Sicherheitsfunksystem (GMDSS) eingeführt?"
   },
   {
-    "question": "Welche Aufgaben hat die Internationale Fernmeldeunion (International Telecommunication Union [ITU])?",
     "answers": [
       "Die Internationale Fernmeldeunion (ITU) legt die grundlegenden Regelungen für die internationale Telekommunikation fest",
       "Die Internationale Fernmeldeunion (ITU) legt für alle Nationen der UN, die weltweit Seeschifffahrt betreiben, die Mindeststandards hinsichtlich der Funkausrüstung von Seeschiffen fest",
       "Die Internationale Fernmeldeunion (ITU) führt als internationale Verkehrsbehörde weltweit die Überwachung des Funkverkehrs durch",
       "Die Internationale Fernmeldeunion (ITU) rechnet die Gebühren von weltweiten Seefunkgesprächen ab"
+    ],
+    "correct": 0,
+    "question": "Welche Aufgaben hat die Internationale Fernmeldeunion (International Telecommunication Union [ITU])?"
+  },
+  {
+    "question": "Was regelt die Vollzugsordnung für den Funkdienst (VO Funk, engl. Radio Regulations [RR])? ",
+    "answers": [
+      "Die Vollzugsordnung für den Funkdienst (RR) regelt u. a. die Zuweisung von Frequenzbereichen an die Funkdienste und die Betriebsverfahren im Seefunkdienst",
+      "Die Vollzugsordnung für den Funkdienst (RR) regelt die Ausrüstung von Seeschiffen bezüglich der Funkeinrichtung",
+      "Die Vollzugsordnung für den Funkdienst (RR) regelt den freien Funkverkehr zwischen den Seefahrt betreibenden Nationen",
+      "Die Vollzugsordnung für den Funkdienst (RR) regelt die Benutzung von Radaranlagen auf Seeschiffen auf See und in Häfen"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Welche Publikationen des Bundesamtes für Seeschifffahrt und Hydrographie (BSH) enthalten speziell für die Sportschifffahrt Informationen zum Seefunk? ",
+    "answers": [
+      "Funkdienst für die Klein- und Sportschifffahrt",
+      "Nautisches Jahrbuch",
+      "Nachrichten für Seefahrer",
+      "Mitteilungen für Seefunkstellen und Schiffsfunkstellen"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Was ist eine „Küstenfunkstelle“? ",
+    "answers": [
+      "Ortsfeste Funkstelle des mobilen Seefunkdienstes",
+      "Funkstelle an Bord eines Schiffes im Küstenbereich, über die wichtige Informationen für die Seeschifffahrt verbreitet werden",
+      "Funkstelle des Rundfunkdienstes zur Übermittlung von Wetternachrichten für die Schifffahrt",
+      "Funkstelle an Bord eines Schiffes für den Empfang von Funkgesprächen aus dem Mobilfunknetz"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Was bedeutet „öffentlicher Funkverkehr“? ",
+    "answers": [
+      "Funkverkehr, der der Allgemeinheit zum Austausch von Nachrichten dient",
+      "Funkverkehr, der im Gegensatz zum Nichtöffentlichen Funkverkehr unverschlüsselt abgewickelt wird",
+      "Funkverkehr, der von jeder Seefunkstelle abgehört werden muss",
+      "Funkverkehr, der nicht dem Fernmeldegeheimnis und dem Abhörverbot unterliegt"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Für die Teilnahme am öffentlichen Funkverkehr ist – im Gegensatz zur Teilnahme am Nicht-öffentlichen Funkverkehr – zusätzlich erforderlich …",
+    "answers": [
+      "Vertrag mit einer Abrechnungsgesellschaft",
+      "Besitz eines Seefunkzeugnisses",
+      "Zulassung des Funkgeräts",
+      "Zuteilung (Ship Station Licence)"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Wodurch erfährt eine Seefunkstelle von einer Küstenfunkstelle, dass dort Nachrichten für sie vorliegen?",
+    "answers": [
+      "Individuelle Benachrichtigung oder Abhören von Sammelanrufen",
+      "Individuelle Benachrichtigung durch die Abrechnungsgesellschaft",
+      "Individuelle Benachrichtigung mittels SMS oder E-Mail",
+      "Öffentliche Benachrichtigung mittels NAVTEX"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Was sind die Abrechnungsgrundlagen für ein Seefunkgespräch über eine deutsche Küstenfunkstelle?",
+    "answers": [
+      "Gesprächsdauer und Preis der Verrechnungseinheiten",
+      "Gesprächsdauer und Entfernung zur Küstenfunkstelle",
+      "Gesprächsdauer und Frequenznutzungsgebühren",
+      "Gesprächsdauer und Dringlichkeit des Gesprächs"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Was ist eine „Sea-Area“ im GMDSS?",
+    "answers": [
+      "Festgelegtes Seegebiet",
+      "International festgelegtes Seewarngebiet",
+      "Im NAVTEX bestimmtes Seegebiet",
+      "Weltweites Raster zum schnellen Auffinden von verunglückten Fahrzeugen"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Welche Bezeichnungen tragen die Seegebiete, in denen für Schiffe eine bestimmte Funkausrüstung international vorgeschrieben ist?",
+    "answers": [
+      "A1, A2, A3, A4",
+      "A, B, C, D",
+      "NAVAREAS",
+      "Küstengewässer, küstennahe Seegewässer, Hohe See"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Eine Yacht befindet sich in einem Seegebiet, das von der Sprechfunkreichweite einer UKW-Küstenfunkstelle abgedeckt wird, die ununterbrochen für DSC-Alarmierungen zur Verfügung steht. In welchem Seegebiet befindet sich das Fahrzeug?",
+    "answers": [
+      "Seegebiet A1",
+      "Seegebiet A2",
+      "Seegebiet A3",
+      "Seegebiet A4"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Welches sind die satellitengestützten Alarmierungssysteme im Weltweiten Seenot- und Sicherheitsfunksystem (GMDSS)?",
+    "answers": [
+      "COSPAS-SARSAT, Inmarsat",
+      "Eutelsat, Globalstar",
+      "EPIRB, AIS",
+      "DSC, COSPAS-SARSAT"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Was wird als „MSI“ bezeichnet?",
+    "answers": [
+      "Nachricht, die die Sicherheit der Seeschifffahrt betrifft",
+      "Rufnummer im Seefunkdienst (Maritime Mobile Service Identity)",
+      "Mittlere Signalstärke des modulierten Eingangssignals",
+      "Landeskennung einer Seefunkstelle"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Welche Aussendung wird als „WX“ bezeichnet?",
+    "answers": [
+      "Wetterbericht",
+      "Nautische Warnnachricht",
+      "Aussendung, die zurückgenommen wurde",
+      "Funktelexaussendung im GMDSS"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Welche Aussendung wird als „NX“ bezeichnet?",
+    "answers": [
+      "Nautische Warnnachricht",
+      "Wetterbericht",
+      "Aussendung, die zurückgenommen wurde",
+      "Funktelexaussendung im GMDSS"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Was versteht man unter „AIS“?",
+    "answers": [
+      "Automatisches Schiffsidentifizierungs- und Überwachungssystem, das statische und dynamische Schiffsdaten auf UKW überträgt",
+      "Automatische Aussendung der Kennung eines Seeschiffes jede Minute bzw. beim Loslassen der Sprechtaste",
+      "Allgemeines Informationssystem für die Seeschifffahrt",
+      "Identifizierung eines Schiffes mit Hilfe von Radarpeilungen und deren Weitergabe an die Schifffahrt zur Kollisionsverhütung"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Was bedeutet „ETA“?",
+    "answers": [
+      "Voraussichtliche Ankunftszeit",
+      "Voraussichtliche Abfahrtszeit",
+      "Voraussichtliche Gesamtfahrtzeit",
+      "Voraussichtliche Restfahrtzeit"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Wonach richten sich die Zeitangaben im Seefunkdienst? ",
+    "answers": [
+      "Koordinierte Weltzeit (Universal Time Co-ordinated [UTC])",
+      "Bordzeit, berichtigt nach Sommer- oder Winterzeit",
+      "Greenwich-Zeit (Greenwich Mean Time [GMT])",
+      "Ortszeit, bezogen auf den Standort des Schiffes (Local Time [LT])"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Welche Bedeutung hat die Zeitangabe „LT“ (Local Time)?",
+    "answers": [
+      "Ortszeit, bezogen auf den Standort des Schiffes",
+      "Zeitzone entsprechend der geografischen Breite des Schiffsortes",
+      "Zeit, die bei Funkaussendungen in einem bestimmten Seegebiet zu verwenden ist",
+      "Zeit, die automatisch durch ein an die Funkanlage angeschlossenes GPS-Gerät übermittelt wird"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Wie bezeichnet man ein funkärztliches Beratungsgespräch?",
+    "answers": [
+      "Medico-Gespräch",
+      "Emergency-Gespräch",
+      "Medical-Transport-Gespräch",
+      "Erste-Hilfe-Gespräch"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Was ist eine „Seefunkstelle“?",
+    "answers": [
+      "Funkstelle des mobilen Seefunkdienstes an Bord eines nicht dauernd verankerten Seefahrzeuges",
+      "Typgeprüfte Funkstelle, die kein ATIS-Signal aussendet",
+      "Seefunkgerät samt Antenne, das im UKW- bzw. Grenz- und Kurzwellenbereich betrieben wird",
+      "Funkstelle, die am GMDSS teilnehmen darf"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Welches Funkzeugnis ist auf einem mit einer Seefunkanlage ausgerüsteten Sportfahrzeug unter deutscher Flagge für den Schiffsführer vorgeschrieben? ",
+    "answers": [
+      "Ein Funkzeugnis, das zum Bedienen der eingebauten Anlage berechtigt, z. B. SRC oder LRC",
+      "Ein SRC bis zur Grenze der Hoheitsgewässer, darüber hinaus ein LRC",
+      "Keines, es genügt, wenn eine Person an Bord ist, die die Funkanlage bedienen darf",
+      "Für die Bedienung einer Grenz-/Kurzwellenanlage ist das LRC vorgeschrieben, für die Bedienung einer UKW-Anlage zusätzlich das SRC"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Welche Funkanlagen darf der Inhaber eines Beschränkt Gültigen Funkbetriebszeugnisses (Short Range Certificate [SRC]) bedienen? ",
+    "answers": [
+      "UKW-Funkanlagen im Seefunkdienst auf nicht funkausrüstungspflichtigen Fahrzeugen und auf Traditionsschiffen",
+      "UKW-Funkanlagen für See- und Luftfunkstellen",
+      "UKW-Funkanlagen auf Sportbooten im Seefunkdienst und Binnenschifffahrtsfunk",
+      "UKW-Funkanlagen auf funkausrüstungspflichtigen und nicht funkausrüstungspflichtigen Seeschiffen"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Welche Sportboote müssen mit einer UKW-Seefunkanlage ausgerüstet sein?",
+    "answers": [
+      "Gewerbsmäßig genutzte Sportboote mit einer Länge über alles von 12 m und mehr",
+      "Sportboote mit einer Länge über alles von 12 m und mehr",
+      "Sportboote mit einer Antriebsmaschine von 3,68 kW und mehr",
+      "Gewerbsmäßig genutzte Sportboote mit einer Antriebsmaschine von 3,68 kW und mehr"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Welche rechtlichen Voraussetzungen sind für den Betrieb einer Seefunkstelle auf einem Sportfahrzeug und einem Traditionsschiff zu erfüllen? ",
+    "answers": [
+      "Zuteilung (Ship Station Licence), für den Seefunkdienst zugelassene oder in Verkehr gebrachte Funkgeräte, ausreichendes Seefunkzeugnis des Fahrzeugführers",
+      "Zuteilung (Ship Station Licence), ausreichendes Seefunkzeugnis und Sportbootführerschein des Fahrzeugführers",
+      "Zuteilung (Ship Station Licence), ausreichendes Seefunkzeugnis einer Person an Bord",
+      "Zuteilung (Ship Station Licence), für den Seefunkdienst zugelassene oder in Verkehr gebrachte Funkgeräte, Sportbootführerschein"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Welche Urkunde und welcher Befähigungsnachweis müssen bei der Überprüfung einer Seefunkstelle auf einem Sportfahrzeug dem Prüfbeamten auf Verlangen vorgelegt werden?",
+    "answers": [
+      "Zuteilung (Ship Station Licence) und Seefunkzeugnis des Fahrzeugführers",
+      "Zuteilung (Ship Station Licence) und Sportbootführerschein des Fahrzeugführers",
+      "Seefunkzeugnis eines Besatzungsmitgliedes und Internationaler Bootsschein (IBS)",
+      "Seefunkzeugnis des Fahrzeugführers und Eigentumsnachweis"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "",
+    "answers": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correct": 0
+  },
+  {
+    "question": "",
+    "answers": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correct": 0
+  },
+  {
+    "question": "",
+    "answers": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correct": 0
+  },
+  {
+    "question": "",
+    "answers": [
+      "",
+      "",
+      "",
+      ""
     ],
     "correct": 0
   }
