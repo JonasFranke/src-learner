@@ -1,0 +1,32 @@
+[
+  {
+    "question": "„Mobiler Seefunkdienst“ ist mobiler Funkdienst …",
+    "answers": [
+      "zwischen Küstenfunkstellen und Seefunkstellen bzw. zwischen Seefunkstellen untereinander",
+      "zwischen tragbaren Funkstellen an Bord eines Seefahrzeuges",
+      "ausschließlich zwischen Seefunkstellen",
+      ""
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Welche Funktion hat das „GMDSS“ (Global Maritime Distress and Safety System)?",
+    "answers": [
+      "Hilfe in Seenotfällen und Sicherung der Schifffahrt durch schnelle und genaue Alarmierung im Seenotfall",
+      "Koordinierung der Alarmierung von Seefunkstellen im Seenotfall",
+      "Positionsbestimmung des Havaristen durch geostationäre Satelliten",
+      ""
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Zu welchem Zweck wurde das Weltweite Seenot- und Sicherheitsfunksystem (GMDSS) eingeführt?",
+    "answers": [
+      "Schnelle und genaue Alarmierung in Not-, Dringlichkeits- und Sicherheitsfällen",
+      "Schnelle  Alarmierung in Notfällen",
+      "Schnelle und genaue Alarmierung in Not- und Dringlichkeitsfällen",
+      ""
+    ],
+    "correct": 0
+  }
+]

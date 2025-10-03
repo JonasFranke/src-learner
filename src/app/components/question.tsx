@@ -45,9 +45,7 @@ export default function Question({
   }, [answers]);
 
   const state = useQuestionStore((state) => state);
-  const current = useQuestionStore((state) => state.current);
   const correct = useQuestionStore((state) => state.correct);
-  const correctAnswered = useQuestionStore((state) => state.correctAnswered);
 
   return (
     <div className="p-4 border rounded-md my-4 mx-2">
@@ -59,15 +57,20 @@ export default function Question({
       </div>
       <ul>
         {randomAnswers?.map((a) => (
-          <li key={a.id}>
+          <li
+            key={a.id}
+            onClick={() => {
+              document.getElementById(a.id.toString())?.click();
+            }}
+          >
             <input
               type="checkbox"
               className="m-2"
+              id={a.id.toString()}
               value={a.answer}
               checked={selectedAnswer === a.id}
               onChange={() => {
                 handleChange(a.id);
-                console.log(selectedAnswer);
               }}
             />
             {a.answer}
@@ -80,21 +83,19 @@ export default function Question({
           className="border bg-cyan-950 border-cyan-900 rounded-md m-2 p-0.5"
           onClick={() => {
             if (selectedAnswer === correctAnswer) {
-              console.log("Correct");
-              console.log(correctAnswered);
+              const { current, correct, correctAnswered } =
+                useQuestionStore.getState();
+              const newCurrent = current + 1;
+              const newCorrect = correct + 1;
+              const newCorrectAnswered = [...correctAnswered, current];
               useQuestionStore.setState({
-                correctAnswered: useQuestionStore
-                  .getState()
-                  .correctAnswered.concat([current]),
+                current: newCurrent,
+                correct: newCorrect,
+                correctAnswered: newCorrectAnswered,
               });
-              console.log(correctAnswered);
-              useQuestionStore.setState({ current: current + 1 });
-              useQuestionStore.setState({ correct: correct + 1 });
               setSelectedAnswer(null);
               setWrongAnsert(false);
-              useQuestionStore
-                .getState()
-                .saveState(current, correct, correctAnswered);
+              useQuestionStore.getState().saveState();
             } else {
               setWrongAnsert(true);
             }

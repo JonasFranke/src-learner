@@ -12,31 +12,31 @@ interface IQuestionState {
   correctAnswered: number[];
   reset: () => void;
   loadState: () => void;
-  saveState: (
-    current: number,
-    correct: number,
-    correctAnswered: number[],
-  ) => void;
+  saveState: () => void;
 }
 
-export const useQuestionStore = create<IQuestionState>()((set) => ({
-  current: 0,
+const saveState = (get: () => IQuestionState) => {
+  const { current, correct, correctAnswered } = get();
+  const state: State = { correct, correctAnswered, current };
+  localStorage.setItem("quizState", JSON.stringify(state));
+};
+
+export const useQuestionStore = create<IQuestionState>()((set, get) => ({
   correct: 0,
   correctAnswered: [],
-  reset: () => {
-    set({ current: 0, correct: 0 });
-    localStorage.removeItem("quizState");
-  },
+  current: 0,
   loadState: () => {
     const savedState = localStorage.getItem("quizState");
     if (savedState) {
       const { current, correct, correctAnswered }: State =
         JSON.parse(savedState);
-      set({ current, correct, correctAnswered });
+      set({ correct, correctAnswered, current });
     }
   },
-  saveState: (current: number, correct: number, correctAnswered: number[]) => {
-    const state: State = { current, correct, correctAnswered };
-    localStorage.setItem("quizState", JSON.stringify(state));
+  reset: () => {
+    set({ correct: 0, current: 0 });
+    localStorage.removeItem("quizState");
+    saveState(get);
   },
+  saveState: () => saveState(get),
 }));

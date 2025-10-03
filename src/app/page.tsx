@@ -22,7 +22,7 @@ export default function Home() {
     if (localStorage.getItem("quizState")) {
       loadState();
     } else {
-      saveState(0, 0, []);
+      saveState();
     }
   }, [loadState, saveState]);
 
@@ -32,9 +32,9 @@ export default function Home() {
 
       {current < limit ? (
         <Question
-          question={questions[current].question}
           answers={questions[current].answers}
           correctAnswer={questions[current].correct}
+          question={questions[current].question}
         />
       ) : undefined}
     </div>
