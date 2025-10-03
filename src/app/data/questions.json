@@ -18,5 +18,25 @@
       "Störungsfreier Funkverkehr im Seenotfall"
     ],
     "correct": 0
+  },
+  {
+    "question": "Zu welchem Zweck wurde das Weltweite Seenot- und Sicherheitsfunksystem (GMDSS) eingeführt?",
+    "answers": [
+      "Schnelle und genaue Alarmierung in Not-, Dringlichkeits- und Sicherheitsfällen",
+      "Schnelle Alarmierung in Notfällen",
+      "Schnelle und genaue Alarmierung in Not- und Dringlichkeitsfällen",
+      "Schnelle und genaue Alarmierung in Not- und Sicherheitsfällen"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Welche Aufgaben hat die Internationale Fernmeldeunion (International Telecommunication Union [ITU])?",
+    "answers": [
+      "Die Internationale Fernmeldeunion (ITU) legt die grundlegenden Regelungen für die internationale Telekommunikation fest",
+      "Die Internationale Fernmeldeunion (ITU) legt für alle Nationen der UN, die weltweit Seeschifffahrt betreiben, die Mindeststandards hinsichtlich der Funkausrüstung von Seeschiffen fest",
+      "Die Internationale Fernmeldeunion (ITU) führt als internationale Verkehrsbehörde weltweit die Überwachung des Funkverkehrs durch",
+      "Die Internationale Fernmeldeunion (ITU) rechnet die Gebühren von weltweiten Seefunkgesprächen ab"
+    ],
+    "correct": 0
   }
 ]
